@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Generate OTP</title>
+</head>
+<body>
+    <h1>Generate OTP</h1>
+    <form action="/sendotp" method="post">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" required>
+        <button type="submit">Generate OTP</button>
+    </form>
+</body>
+</html>
